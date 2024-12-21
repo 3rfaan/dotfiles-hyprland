@@ -635,11 +635,15 @@ $ sudo pacman -S alacritty kitty
 
 ### Editor
 
-_Neovim_ should already be installed after running the _pacstrap_ command in the installation process. You can use other editors like _nano_ too.
+_Neovim_ should already be installed after running the _pacstrap_ command in the installation process.
 
 ```
-$ sudo pacman -S neovim gedit nano
+$ sudo pacman -S code gedit nano
 ```
+
+- _code_: Visual Studio Code OSS
+- _gedit_: Gnome Editor
+- _nano_: Terminal editor
 
 ### Program Launcher
 
@@ -651,6 +655,12 @@ $ sudo pacman -S wofi
 
 ```
 $ sudo pacman -S waybar
+```
+
+To set display brightness through `waybar` install `brightnessctl`:
+
+```
+$ sudo pacman -S brightnessctl
 ```
 
 ### File Manager
