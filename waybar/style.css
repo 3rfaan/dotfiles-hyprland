@@ -56,7 +56,6 @@ window#waybar {
     color: @red;
 }
 
-#window,
 #clock,
 #pulseaudio,
 #backlight,
@@ -70,9 +69,9 @@ window#waybar {
 }
 
 #window {
-    margin-left: 1rem;
+    margin: 5px 0;
+    padding: 0.5rem 1rem;
     color: @blue;
-    border-radius: 1.5rem;
 }
 
 /* make window module transparent when no windows present */
