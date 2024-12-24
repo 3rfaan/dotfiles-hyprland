@@ -71,10 +71,11 @@ export MANPAGER='less -R --use-color -Dd+r -Du+b'
 #export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export BAT_THEME='Catppuccin Mocha'
 
-# Setting Default Editor
-export TERM='alacritty'
+# Defaults
+export TERM='tmux-256color'
 export EDITOR='nvim'
 export VISUAL='nvim'
+export GTK_THEME=Adwaita:dark
 
 # File to store ZSH history
 export HISTFILE=~/.zsh_history
