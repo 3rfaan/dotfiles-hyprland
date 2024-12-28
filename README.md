@@ -763,7 +763,7 @@ $ sudo pacman -S nodejs npm rust go ruby rubygems php composer lua luarocks pyth
 #### CLI utilities
 
 ```
-$ sudo pacman -S curl fastfetch fzf gzip htop lazygit tar tmux unzip wget
+$ sudo pacman -S bottom curl fastfetch fzf gzip htop lazygit tar tmux unzip wget
 ```
 
 ```
@@ -774,6 +774,7 @@ $ sudo pacman -S tree-sitter tree-sitter-cli
 $ yay -S pfetch-rs
 ```
 
+- _bottom_: System monitoring
 - _curl_: Fetching packages from the web
 - _fastfetch_: System information
 - _fzf_: Fuzzy finder
