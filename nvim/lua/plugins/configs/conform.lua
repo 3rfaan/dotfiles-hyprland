@@ -12,9 +12,9 @@
 require("conform").setup({
     formatters_by_ft = {
         markdown = { "prettier" },
+        python = { "black" },
         ["*"] = { "codespell" },
         ["_"] = { "trim_whitespace" },
-        python = { "black" }
     },
     format_on_save = {
         lsp_fallback = true,
