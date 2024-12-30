@@ -638,7 +638,7 @@ $ sudo pacman -S alacritty kitty
 _Neovim_ should already be installed after running the _pacstrap_ command in the installation process.
 
 ```
-$ sudo pacman -S code gedit nano
+$ sudo pacman -S code nano
 ```
 
 - _code_: Visual Studio Code OSS
@@ -763,7 +763,7 @@ $ sudo pacman -S nodejs npm rust go ruby rubygems php composer lua luarocks pyth
 #### CLI utilities
 
 ```
-$ sudo pacman -S bottom curl fastfetch fzf gzip htop lazygit tar tmux unzip wget
+$ sudo pacman -S bottom curl fastfetch fzf gzip htop lazygit starship tar tmux unzip wget
 ```
 
 ```
@@ -781,6 +781,7 @@ $ yay -S pfetch-rs
 - _gzip_: Enzipping/Unzipping
 - _htop_: CLI task manager
 - _lazygit_: Git CLI tool
+- _starship_: Cross-shell prompt
 - _tar_: Enzipping/Unzipping
 - _tmux_: Terminal mutliplexer
 - _unzip_: Enzipping/Unzipping
