@@ -11,14 +11,28 @@
 # Get editor completions based on the config schema
 "$schema" = "https://starship.rs/config-schema.json"
 
+format = "$directory$character"
+right_format = "$all"
+
 palette = "catppuccin_mocha"
+add_newline = false
+
+[character]
+format = "$symbol  "
+success_symbol = "[\uf178](bold mauve)"
+error_symbol = "[\uf178](bold red)"
+vimcmd_symbol = "[\ue7c5](bold green)"
+vimcmd_replace_one_symbol = "[\ue7c5](bold purple)"
+vimcmd_replace_symbol = "[\ue7c5](bold purple)"
+vimcmd_visual_symbol = "[\ue7c5](bold yellow)"
 
 [directory]
-format = "[󰉋](bold blue) [$path]($style)[$read_only]($read_only_style) "
+format = "[\uf07b](bold blue) [$path]($style)[$read_only]($read_only_style) "
 style = "bold blue"
+read_only = " 󰌾"
 
 [git_branch]
-style = "bold peach"
+style = "bold red"
 
 
 [palettes.catppuccin_mocha]
