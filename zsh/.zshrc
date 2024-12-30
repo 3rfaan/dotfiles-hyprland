@@ -75,7 +75,7 @@ export BAT_THEME='Catppuccin Mocha'
 export TERM='tmux-256color'
 export EDITOR='nvim'
 export VISUAL='nvim'
-export GTK_THEME=Adwaita:dark
+export GTK_THEME="Adwaita:dark"
 
 # File to store ZSH history
 export HISTFILE=~/.zsh_history
@@ -88,27 +88,16 @@ export SAVEHIST=1000
 
 # Loading ZSH modules
 autoload -Uz compinit
-autoload -Uz vcs_info # Git
 
 # Style control for completion system and VCS
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 zstyle ':completion:*' menu select
 zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' rehash true                      # Rehash so compinit can automatically find new executables in $PATH
-zstyle ':vcs_info:*' enable git
-zstyle ':vcs_info:git:*' formats 'on %F{red} %b%f '    # Set up Git Branch details into prompt
 
 # Match dotfiles without explicitly specifying the dot
 compinit
 _comp_options+=(globdots)
-
-# Load Version Control System into prompt
-precmd() { vcs_info }
-
-# Prompt Appearance
-setopt PROMPT_SUBST
-
-PS1='%B%F{blue}❬%n%f@%F{blue}%m❭%f %F{blue} %1~%f%b ${vcs_info_msg_0_} '
 
 # Yazi shell
 function y() {
@@ -138,3 +127,6 @@ source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # Launch pfetch when opening new terminal
 pfetch
+
+# Starship prompt
+eval "$(starship init zsh)"
