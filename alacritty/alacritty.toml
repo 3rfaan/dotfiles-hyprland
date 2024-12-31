@@ -14,7 +14,7 @@ import = ["~/.config/alacritty/catppuccin-mocha.toml"]
 live_config_reload = true
 
 [window]
-padding = { x = 4, y = 4 }
+padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "None"
 resize_increments = true
