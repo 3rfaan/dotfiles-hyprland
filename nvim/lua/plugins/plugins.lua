@@ -62,8 +62,8 @@ return {
     "neovim/nvim-lspconfig",             -- LSP configuration
 
     ------- Editing Tools
-    "lukas-reineke/indent-blankline.nvim", -- Line highlighting
     "lewis6991/gitsigns.nvim",             -- Git signs
+    "lukas-reineke/indent-blankline.nvim", -- Line highlighting
     "windwp/nvim-autopairs",               -- Auto closing brackets, parenthesis etc.
     "norcalli/nvim-colorizer.lua",         -- Hex color highlighting
     "hiphish/rainbow-delimiters.nvim",     -- Brackets, parenthesis colorizing
