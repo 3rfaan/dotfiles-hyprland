@@ -17,6 +17,14 @@ return {
         priority = 1000,
         lazy = false,
     },
+    {
+        "folke/noice.nvim",
+        event = "VeryLazy",
+        dependencies = {
+            "MunifTanjim/nui.nvim",
+            "rcarriga/nvim-notify",
+        }
+    },
 
     "goolord/alpha-nvim",        -- Startup screen
     "nvim-lualine/lualine.nvim", -- Status line
@@ -68,5 +76,4 @@ return {
     "norcalli/nvim-colorizer.lua",         -- Hex color highlighting
     "hiphish/rainbow-delimiters.nvim",     -- Brackets, parenthesis colorizing
     "MattesGroeger/vim-bookmarks",         -- Bookmarks
-
 }
