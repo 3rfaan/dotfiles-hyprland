@@ -1,0 +1,21 @@
+# Font
+font-family = JetBrainsMono Nerd Font
+font-style = SemiBold
+font-size = 13
+
+# Theme
+theme = light:catppuccin-latte,dark:catppuccin-mocha
+
+# Cursor
+cursor-invert-fg-bg
+
+# Window
+window-padding-x = 7
+window-padding-y = 7
+window-padding-balance = true
+window-decoration = false
+
+# Keybindings
+keybind = ctrl+comma=increase_font_size:1
+keybind = ctrl+minus=decrease_font_size:1
+keybind = ctrl+zero=reset_font_size
