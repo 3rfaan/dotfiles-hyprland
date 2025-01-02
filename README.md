@@ -563,6 +563,14 @@ $ yay -S wlogout
 
 ⚠️ _Caution:_ If you don't have an NVIDIA graphics card you have to delete the environment variables concerning NVIDIA in _~/.config/hyprland/hyprland.conf_ later when configuring the system!
 
+#### Hyprcursor
+
+The `hyprcursor` utility should already be installed because of `hyprland`. We just need some cursor themes:
+
+```
+$ yay -S bibata-cursor-theme-bin
+```
+
 ### Sway
 
 ```
