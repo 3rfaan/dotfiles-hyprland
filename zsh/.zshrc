@@ -86,8 +86,11 @@ export HISTSIZE=1000
 # Maximum number of commands stores in HISTFILE
 export SAVEHIST=1000
 
+# Deno autocompletions
+fpath+=($HOME/.zsh)
+
 # Loading ZSH modules
-autoload -Uz compinit
+autoload -Uz compinit && compinit
 
 # Style control for completion system and VCS
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
@@ -96,7 +99,6 @@ zstyle ':completion::complete:*' gain-privileges 1
 zstyle ':completion:*' rehash true                      # Rehash so compinit can automatically find new executables in $PATH
 
 # Match dotfiles without explicitly specifying the dot
-compinit
 _comp_options+=(globdots)
 
 # Yazi shell
@@ -130,3 +132,4 @@ pfetch
 
 # Starship prompt
 eval "$(starship init zsh)"
+
