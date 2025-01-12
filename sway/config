@@ -27,7 +27,7 @@ set $right l
 # Default programs
 set $browser firefox
 set $menu wmenu-run
-set $term foot
+set $term ghostty
 
 ### OUTPUT CONFIGURATION
 
@@ -51,9 +51,9 @@ bindswitch --reload --locked lid:off output $laptop enable
 ### IDLE CONFIGURATION
 
 exec swayidle -w \
-         timeout 300 'hyprlock' \
-         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-         before-sleep 'hyprlock'
+    timeout 300 'swaylock -f -c 000000' \
+    timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+    before-sleep 'swaylock -f -c 000000'
 
 ### INPUT CONFIGURATION
 
