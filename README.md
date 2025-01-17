@@ -282,6 +282,9 @@ KEYMAP=de_CH-latin1
 FONT=Lat2-Terminus16
 ```
 
+For higher resolution displays like widescreens, `Lat2-Terminus16` might be too small. Set `FONT=ter-132n` from the [terminus-font](https://archlinux.org/packages/?name=terminus-font) package:
+
+
 #### Network configurations
 
 Create _/etc/hostname_ and type any name you wish as your hostname:
