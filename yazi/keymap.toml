@@ -1,66 +1,66 @@
 # bookmarks.yazi
 [[manager.prepend_keymap]]
 on = ["m"]
-run = "plugin bookmarks --args=save"
+run = "plugin bookmarks save"
 desc = "Save current position as a bookmark"
 
 [[manager.prepend_keymap]]
 on = ["'"]
-run = "plugin bookmarks --args=jump"
+run = "plugin bookmarks jump"
 desc = "Jump to a bookmark"
 
 [[manager.prepend_keymap]]
 on = ["b", "d"]
-run = "plugin bookmarks --args=delete"
+run = "plugin bookmarks delete"
 desc = "Delete a bookmark"
 
 [[manager.prepend_keymap]]
 on = ["b", "D"]
-run = "plugin bookmarks --args=delete_all"
+run = "plugin bookmarks delete_all"
 desc = "Delete all bookmarks"
 
 # relative-motions
 [[manager.prepend_keymap]]
 on = ["1"]
-run = "plugin relative-motions --args=1"
+run = "plugin relative-motions 1"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["2"]
-run = "plugin relative-motions --args=2"
+run = "plugin relative-motions 2"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["3"]
-run = "plugin relative-motions --args=3"
+run = "plugin relative-motions 3"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["4"]
-run = "plugin relative-motions --args=4"
+run = "plugin relative-motions 4"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["5"]
-run = "plugin relative-motions --args=5"
+run = "plugin relative-motions 5"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["6"]
-run = "plugin relative-motions --args=6"
+run = "plugin relative-motions 6"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["7"]
-run = "plugin relative-motions --args=7"
+run = "plugin relative-motions 7"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["8"]
-run = "plugin relative-motions --args=8"
+run = "plugin relative-motions 8"
 desc = "Move in relative steps"
 
 [[manager.prepend_keymap]]
 on = ["9"]
-run = "plugin relative-motions --args=9"
+run = "plugin relative-motions 9"
 desc = "Move in relative steps"
