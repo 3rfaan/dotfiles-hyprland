@@ -46,7 +46,7 @@ require("mason-lspconfig").setup_handlers({
             settings = {
                 Lua = {
                     diagnostics = {
-                        globals = { "vim", "opt", "g", "kmap", "cmd" }
+                        globals = { "vim", "opt", "g", "kmap", "cmd", "Snacks" }
                     }
                 }
             }

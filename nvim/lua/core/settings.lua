@@ -117,14 +117,8 @@ opt.splitbelow = true
 g.loaded_netrw = 1
 g.loaded_netrwPlugin = 1
 
--- Show hidden NerdTree files
-g.NERDTreeShowHidden = 1
-
 -- GUI settings
 opt.guifont = { "FiraCode Nerd Font", ":h14" }
-
--- Settings for Neovide
-g.neovide_cursor_vfx_mode = "railgun"
 
 -- Disabling providers (if downloaded Neovim from one of this providers don't delete!)
 g.loaded_python3_provider = 0

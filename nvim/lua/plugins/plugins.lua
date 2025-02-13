@@ -26,18 +26,13 @@ return {
         }
     },
 
-    "goolord/alpha-nvim",        -- Startup screen
     "nvim-lualine/lualine.nvim", -- Status line
 
     -------- Neovim Tools
-    "stevearc/conform.nvim",              -- Formatter
-    "mbbill/undotree",                    -- Undo tree
+    require("plugins.configs.snacks"),    -- Collection of QoL plugins
     require("plugins.configs.which-key"), -- Show keymaps
+    "mbbill/undotree",                    -- Undo tree
 
-    {
-        "nvim-tree/nvim-tree.lua", -- NvimTree
-        dependencies = { "nvim-tree/nvim-web-devicons" }
-    },
     {
         "nvim-treesitter/nvim-treesitter", -- Treesitter
         build = ":TSUpdate"
@@ -54,26 +49,13 @@ return {
             "hrsh7th/vim-vsnip",
         }
     },
-    {
-        "nvim-telescope/telescope.nvim", -- Telescope
-        tag = "0.1.8",
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-            "smartpde/telescope-recent-files",
-            "tom-anders/telescope-vim-bookmarks.nvim"
-        }
-    },
-
     ------- LSP
     "williamboman/mason.nvim",           -- LSP packet manager
     "williamboman/mason-lspconfig.nvim", -- lspconfig integration
     "neovim/nvim-lspconfig",             -- LSP configuration
 
-    ------- Editing Tools
-    "lewis6991/gitsigns.nvim",             -- Git signs
-    "lukas-reineke/indent-blankline.nvim", -- Line highlighting
-    "windwp/nvim-autopairs",               -- Auto closing brackets, parenthesis etc.
-    "norcalli/nvim-colorizer.lua",         -- Hex color highlighting
-    "hiphish/rainbow-delimiters.nvim",     -- Brackets, parenthesis colorizing
-    "MattesGroeger/vim-bookmarks",         -- Bookmarks
+    ------- Editing
+    "stevearc/conform.nvim",       -- Formatter
+    "windwp/nvim-autopairs",       -- Auto closing brackets, parenthesis etc.
+    "norcalli/nvim-colorizer.lua", -- Hex color highlighting
 }
