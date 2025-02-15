@@ -493,6 +493,7 @@ $ sudo pacman -S pipewire wireplumber
 ```
 $ sudo pacman -S openssh
 $ sudo pacman -S iw wpa_supplicant
+$ sudo pacman -S dhcpcd
 ```
 
 #### Enable SSH, DHCP:
