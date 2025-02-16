@@ -55,7 +55,9 @@ return {
     "neovim/nvim-lspconfig",             -- LSP configuration
 
     ------- Editing
-    "stevearc/conform.nvim",       -- Formatter
-    "windwp/nvim-autopairs",       -- Auto closing brackets, parenthesis etc.
-    "norcalli/nvim-colorizer.lua", -- Hex color highlighting
+    "stevearc/conform.nvim",           -- Formatter
+    "lewis6991/gitsigns.nvim",         -- Git signs
+    "windwp/nvim-autopairs",           -- Auto closing brackets, parenthesis etc.
+    "norcalli/nvim-colorizer.lua",     -- Hex color highlighting
+    "hiphish/rainbow-delimiters.nvim", -- Brackets, parenthesis colorizer
 }
