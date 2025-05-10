@@ -856,10 +856,10 @@ If you get the warning "Unable to load such font with such kernel version" when 
 BINARIES=(setfont)
 ```
 
-2. Check for the line `HOOKS=` and replace `keymap` and `consolefont` with `sd-vconsole`:
+2. Check for the line `HOOKS=` and replace `udev` with `systemd` and `keymap` and `consolefont` with `sd-vconsole`:
 
 ```
-HOOKS=(base udev autodetect modconf kms keyboard sd-vconsole block filesystems fsck)
+HOOKS=(base systemd autodetect modconf kms keyboard sd-vconsole block filesystems fsck)
 ```
 
 Then run:
