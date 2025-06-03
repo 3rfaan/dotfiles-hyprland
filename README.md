@@ -1,5 +1,8 @@
 # Arch Linux Install & Ricing
 
+> [!WARNING]
+> This repository is no longer maintained. I switched to sway and a minimal setup.
+
 This is a full installation and customization guide for Arch Linux.
 
 ℹ️ **If you already have a running Arch system with the necessary packets installed, you can go to the [Quick Ricing](#quick-ricing) section.**
