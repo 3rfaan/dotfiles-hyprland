@@ -1,7 +1,7 @@
 # Arch Linux Install & Ricing
 
 > [!WARNING]
-> This repository is no longer maintained. I switched to sway and a minimal setup.
+> This repository is no longer maintained. [I switched to sway and a minimal setup](https://github.com/3rfaan/dotfiles).
 
 This is a full installation and customization guide for Arch Linux.
 
